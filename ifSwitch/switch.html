@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>if
+            else</title>
+    </head>
+    <body>
+        <h3>if
+            과일의가격은?
+            <hr>
+            <script>
+                var price;
+                var fruit = prompt(" 원하시는 과일을 선택하세요 ");  
+                    switch(fruit){
+                case "바나나":
+                    price = 200; break;
+                case "사과":
+                    price = 300; break;
+                case "체리":
+                    price = 400; break;
+                default:
+                    document.write("팔지 않습니다.");
+                    price = 0
+            }
+            console.log(`${fruit}은 ${price}원 입니다 <br>`);
+            </script>
+            
+            </body>
+       
+            </html>

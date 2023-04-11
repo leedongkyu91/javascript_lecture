@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for</title>
+</head>
+<body>
+    <div style="font-size:20px">do_while문으로 px 출력</div><hr>
+    <script>
+        let size = 10;
+        do{
+            document.write("<span ");
+            document.write("style='font-size:" + size + "px'>");
+            document.write(size + "px");
+            document.write("</span>");
+            size += 5;
+        }
+        while(size <= 35);
+    </script>
+</body>
+</html>
